@@ -1,0 +1,19 @@
+
+.characterContainer {
+	display: inline-block;
+	height: 30em;
+	width: 30em;
+	border-style: solid;
+	border-radius: 50px;
+	background-color: #DADADA;
+}
+
+.character {
+	display: inline-block;
+	font-size: 20em;
+}
+
+.translation {
+	padding: 0 2em;
+	text-align: left;
+}

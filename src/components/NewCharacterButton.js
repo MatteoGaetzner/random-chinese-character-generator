@@ -1,17 +1,19 @@
 import React from 'react';
 
+import './NewCharacterButton.css'
+
 export default class NewCharacterButton extends React.Component {
-	static propTypes = {
-		name: React.PropTypes.string,
-	};
-
-	constructor(props) {
-		super(props);
+	onClick(){
+		this.props.setVar(Math.floor(Math.random()*9933));
 	}
-
 	render() {
+		// this.props.setVar(Math.floor(Math.random()*9933));
 		return (
-			<div></div>
+			<div className='newCharacterButton'>
+				<button className='button' type='button' onClick={()=> this.onClick()} >
+					Load New Character
+				</button>
+			</div>
 		);
 	}
 }

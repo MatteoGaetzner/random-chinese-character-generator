@@ -1,0 +1,16 @@
+.SocialMediaButtons {
+	text-align: right;
+	margin: 1em;
+}
+.fbicon {
+	content: url(./fbicon.png);
+	height: auto;
+	width: 50px;
+	margin: 0 1em;
+}
+.twicon {
+	content: url(./twicon.png);
+	height: auto;
+	width: 50px;
+	margin: 0 1em;
+}
