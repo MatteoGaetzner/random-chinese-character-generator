@@ -15,7 +15,6 @@ export default class SocialMediaButtons extends React.Component {
 					<img 
 						className='twicon' 
 						alt=''
-
 					/>
 				</a>
 				<a 
